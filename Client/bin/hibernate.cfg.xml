@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.connection.username">java</property>
+		<property name="hibernate.connection.password">jdhf9wn74tync9q3</property>
+		<property name="hibernate.connection.url">jdbc:mysql://192.168.1.149:3306/BBDD_ej1?serverTimezone=Europe/Berlin</property>
+		<property name="show_sql">false</property>
+		<mapping resource="Student.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>
